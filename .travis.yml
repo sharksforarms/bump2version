@@ -4,6 +4,8 @@ matrix:
   include:
     - python: 2.7
       env: TOX_ENV=py27
+    - python: 2.7
+      env: TOX_ENV=py27-configparser
     - python: 3.2
       env: TOX_ENV=py32
     - python: 3.3
