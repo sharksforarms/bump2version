@@ -16,7 +16,6 @@ matrix:
       env: TOX_ENV=py35
     - python: pypy
       env: TOX_ENV=pypy
-    - env: TOX_ENV=flake8
 
 install:
   - git config --global user.email "bumpversion-test-git@travis.ci"
